@@ -27,3 +27,13 @@ Para obtener métricas generales sobre un código específico en **datalake**, e
   
 4- Sugerencias de Palabras  
 El usuario pasa una oración y lanza la tercera lambda(**word_suggester**) para obtener sugerencias de palabras adicionales. Esta función Lambda utiliza algoritmos de procesamiento de lenguaje natural para sugerir palabras que podrían seguir en la oración dada
+
+
+## Configuración del Proyecto  
+Asegúrese de tener configurado LocalStack con las credenciales adecuadas.  
+- Si no lo tienes puedes obtener más información en https://www.localstack.cloud/  
+- Asegúrese de que su instancia de LocalStack apunta al puerto 4566  
+- Ejecute main.py para inicializr su entorno de LocalStack  
+  
+## Conclusión  
+Este proyecto proporciona una solución completa para el análisis de código y sugerencias de palabras, permitiendo a los usuarios mejorar la calidad y eficiencia de su código de manera efectiva.
