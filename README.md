@@ -31,6 +31,10 @@ El usuario pasa una oración y lanza la tercera lambda(**word_suggester**) para 
 
 ## Configuración del Proyecto  
 Asegúrese de tener configurado LocalStack con las credenciales adecuadas.  
+
+## Integrantes
+- Pedro Sarmiento Yánez  
+- Pedro Jesús Cano González
 - Si no lo tienes puedes obtener más información en https://www.localstack.cloud/  
 - Asegúrese de que su instancia de LocalStack apunta al puerto 4566  
 - Ejecute main.py para inicializr su entorno de LocalStack  
