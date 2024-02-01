@@ -5,7 +5,7 @@ Este proyecto en AWS proporciona un flujo de trabajo eficiente para el análisis
 ![thumbnail_image](https://github.com/PedroCanoGlez/AWS_Project/assets/90764191/179b557f-4532-4a1d-9b65-0ecdc0cc9662)
 
 ## Estructura del Proyecto
-Codigo Entreno --> Archivos para entrenar modelo predictivo. \n 
+Codigo Entreno --> Archivos para entrenar modelo predictivo. /n 
 Initializer.py --> Este código inicializa todo nuestro entorno AWS en localstack.\n 
 lambda1, lambda2 y lambda3 --> lambdas llamadas bucket-viewer, code-metrics y word-suggester para realizar las acciones que ahora detallaremos.\n 
 language_model.keras --> modelo entrenado para predicción de palabras.\n 
