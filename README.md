@@ -12,3 +12,18 @@ language_model.keras --> Modelo entrenado para predicción de palabras.
 main.py --> Graphical User Interface(GUI) sencilla, para que sea más fácil y más simple la ejecución de las lambdas, así como la búsqueda de archivos y la introducción de texto.  
 model.py --> Archivo que entrena y genera el modelo predictivo.  
 prueba_modelo.py --> Pequeño código que prueba la precisión del modelo entrenado.
+
+
+## Pasos del Flujo de Trabajo  
+
+1- Importación del Código al Datalake  
+El usuario introduce su código en el **datalake**, que sirve como el repositorio central para el almacenamiento de códigos.  
+  
+2- Visualización del Contenido del Bucket  
+El usuario lanza la primera lambda (**bucket_viewer**) para obtener una vista previa del contenido del bucket **datalake**. Esta función Lambda proporciona una manera rápida y eficiente de explorar los archivos y estructuras dentro del bucket.  
+
+3- Métricas Generales del Código  
+Para obtener métricas generales sobre un código específico en **datalake**, el usuario lanza la segunda lambda(**code_metrics**). Esta función Lambda realiza análisis y proporciona información valiosa sobre el código.  
+  
+4- Sugerencias de Palabras  
+El usuario pasa una oración y lanza la tercera lambda(**word_suggester**) para obtener sugerencias de palabras adicionales. Esta función Lambda utiliza algoritmos de procesamiento de lenguaje natural para sugerir palabras que podrían seguir en la oración dada
